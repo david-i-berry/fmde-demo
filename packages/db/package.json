@@ -1,0 +1,10 @@
+{
+  "name": "@nodal/db",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NODAL PostgreSQL schema, migrations and metric functions (portable to native PostgreSQL)",
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "test": "vitest run" },
+  "dependencies": { "@electric-sql/pglite": "^0.5.13", "@nodal/model": "*" }
+}

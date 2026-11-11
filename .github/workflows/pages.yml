@@ -1,0 +1,53 @@
+# FMDEhub on GitHub Pages, built from the code in this repo (apps/nodal and packages/).
+# Standalone: no building data (site view), no history recorder, no broker details in the build;
+# the user enters the broker in Settings and the app shows what it delivers from then on.
+# config.json hides the conformance views and the history recorder field.
+# Settings > Pages > Source: GitHub Actions.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Build
+        run: npm run build -w apps/nodal
+        env:
+          NODAL_BASE: /${{ github.event.repository.name }}/
+          VITE_SITES: 'off'
+      - name: Write config.json and the deep-link fallback
+        run: |
+          echo '{ "hideConformance": true, "historyRecorder": false }' > apps/nodal/dist/config.json
+          cp apps/nodal/dist/index.html apps/nodal/dist/404.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/nodal/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

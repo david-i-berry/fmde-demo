@@ -1,0 +1,443 @@
+{
+  "nested": {
+    "int": {
+      "nested": {
+        "wmo": {
+          "nested": {
+            "wis": {
+              "nested": {
+                "spec": {
+                  "nested": {
+                    "fmde": {
+                      "nested": {
+                        "v1": {
+                          "nested": {
+                            "conf": {
+                              "nested": {
+                                "message_encoding": {
+                                  "nested": {
+                                    "CellMethod": {
+                                      "values": {
+                                        "CELL_METHOD_UNSPECIFIED": 0,
+                                        "POINT": 1,
+                                        "SUM": 2,
+                                        "MAXIMUM": 3,
+                                        "MAXIMUM_ABSOLUTE_VALUE": 4,
+                                        "MEDIAN": 5,
+                                        "MID_RANGE": 6,
+                                        "MINIMUM": 7,
+                                        "MINIMUM_ABSOLUTE_VALUE": 8,
+                                        "MEAN": 9,
+                                        "MEAN_ABSOLUTE_VALUE": 10,
+                                        "MEAN_OF_UPPER_DECILE": 11,
+                                        "MODE": 12,
+                                        "RANGE": 13,
+                                        "ROOT_MEAN_SQUARE": 14,
+                                        "STANDARD_DEVIATION": 15,
+                                        "SUM_OF_SQUARES": 16,
+                                        "VARIANCE": 17
+                                      }
+                                    },
+                                    "DeviceRef": {
+                                      "oneofs": {
+                                        "target": {
+                                          "oneof": [
+                                            "node",
+                                            "observerId"
+                                          ]
+                                        }
+                                      },
+                                      "fields": {
+                                        "node": {
+                                          "type": "google.protobuf.Empty",
+                                          "id": 1
+                                        },
+                                        "observerId": {
+                                          "type": "uint32",
+                                          "id": 2
+                                        }
+                                      }
+                                    },
+                                    "Parameter": {
+                                      "fields": {
+                                        "longName": {
+                                          "type": "string",
+                                          "id": 1
+                                        },
+                                        "unit": {
+                                          "type": "string",
+                                          "id": 2
+                                        },
+                                        "standardNames": {
+                                          "keyType": "string",
+                                          "type": "string",
+                                          "id": 3
+                                        },
+                                        "device": {
+                                          "type": "DeviceRef",
+                                          "id": 4
+                                        },
+                                        "cellMethod": {
+                                          "type": "CellMethod",
+                                          "id": 5
+                                        },
+                                        "cellPeriodSeconds": {
+                                          "type": "uint32",
+                                          "id": 6
+                                        }
+                                      }
+                                    },
+                                    "ParameterDefinition": {
+                                      "fields": {
+                                        "id": {
+                                          "type": "uint32",
+                                          "id": 1
+                                        },
+                                        "description": {
+                                          "type": "string",
+                                          "id": 2
+                                        },
+                                        "parameters": {
+                                          "rule": "repeated",
+                                          "type": "Parameter",
+                                          "id": 3
+                                        }
+                                      }
+                                    },
+                                    "Value": {
+                                      "oneofs": {
+                                        "kind": {
+                                          "oneof": [
+                                            "floatValue",
+                                            "doubleValue",
+                                            "int32Value",
+                                            "uint32Value",
+                                            "int64Value",
+                                            "uint64Value",
+                                            "stringValue",
+                                            "boolValue",
+                                            "emptyValue"
+                                          ]
+                                        }
+                                      },
+                                      "fields": {
+                                        "floatValue": {
+                                          "type": "float",
+                                          "id": 1
+                                        },
+                                        "doubleValue": {
+                                          "type": "double",
+                                          "id": 2
+                                        },
+                                        "int32Value": {
+                                          "type": "int32",
+                                          "id": 3
+                                        },
+                                        "uint32Value": {
+                                          "type": "uint32",
+                                          "id": 4
+                                        },
+                                        "int64Value": {
+                                          "type": "int64",
+                                          "id": 5
+                                        },
+                                        "uint64Value": {
+                                          "type": "uint64",
+                                          "id": 6
+                                        },
+                                        "stringValue": {
+                                          "type": "string",
+                                          "id": 7
+                                        },
+                                        "boolValue": {
+                                          "type": "bool",
+                                          "id": 8
+                                        },
+                                        "emptyValue": {
+                                          "type": "google.protobuf.Empty",
+                                          "id": 9
+                                        }
+                                      }
+                                    },
+                                    "Observation": {
+                                      "fields": {
+                                        "parameterDefinitionId": {
+                                          "type": "uint32",
+                                          "id": 1
+                                        },
+                                        "time": {
+                                          "type": "google.protobuf.Timestamp",
+                                          "id": 2
+                                        },
+                                        "values": {
+                                          "rule": "repeated",
+                                          "type": "Value",
+                                          "id": 3
+                                        }
+                                      }
+                                    },
+                                    "ReferenceSurface": {
+                                      "values": {
+                                        "REFERENCE_SURFACE_UNSPECIFIED": 0,
+                                        "MSL": 1,
+                                        "GEOID": 2,
+                                        "GL": 3,
+                                        "REFERENCE_ELLIPSOID": 4,
+                                        "PRESSURE_1000_HPA": 5
+                                      }
+                                    },
+                                    "Location": {
+                                      "oneofs": {
+                                        "_latitude": {
+                                          "oneof": [
+                                            "latitude"
+                                          ]
+                                        },
+                                        "_longitude": {
+                                          "oneof": [
+                                            "longitude"
+                                          ]
+                                        }
+                                      },
+                                      "fields": {
+                                        "latitude": {
+                                          "type": "double",
+                                          "id": 1,
+                                          "options": {
+                                            "proto3_optional": true
+                                          }
+                                        },
+                                        "longitude": {
+                                          "type": "double",
+                                          "id": 2,
+                                          "options": {
+                                            "proto3_optional": true
+                                          }
+                                        },
+                                        "heightMetres": {
+                                          "type": "double",
+                                          "id": 3
+                                        },
+                                        "referenceSurface": {
+                                          "type": "ReferenceSurface",
+                                          "id": 4
+                                        }
+                                      }
+                                    },
+                                    "Node": {
+                                      "oneofs": {
+                                        "_location": {
+                                          "oneof": [
+                                            "location"
+                                          ]
+                                        },
+                                        "_url": {
+                                          "oneof": [
+                                            "url"
+                                          ]
+                                        },
+                                        "_serialNumber": {
+                                          "oneof": [
+                                            "serialNumber"
+                                          ]
+                                        },
+                                        "_firmwareVersion": {
+                                          "oneof": [
+                                            "firmwareVersion"
+                                          ]
+                                        }
+                                      },
+                                      "fields": {
+                                        "id": {
+                                          "type": "string",
+                                          "id": 1
+                                        },
+                                        "name": {
+                                          "type": "string",
+                                          "id": 2
+                                        },
+                                        "location": {
+                                          "type": "Location",
+                                          "id": 3,
+                                          "options": {
+                                            "proto3_optional": true
+                                          }
+                                        },
+                                        "url": {
+                                          "type": "string",
+                                          "id": 4,
+                                          "options": {
+                                            "proto3_optional": true
+                                          }
+                                        },
+                                        "serialNumber": {
+                                          "type": "string",
+                                          "id": 5,
+                                          "options": {
+                                            "proto3_optional": true
+                                          }
+                                        },
+                                        "firmwareVersion": {
+                                          "type": "string",
+                                          "id": 6,
+                                          "options": {
+                                            "proto3_optional": true
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "ObserverDevice": {
+                                      "oneofs": {
+                                        "_location": {
+                                          "oneof": [
+                                            "location"
+                                          ]
+                                        },
+                                        "_url": {
+                                          "oneof": [
+                                            "url"
+                                          ]
+                                        },
+                                        "_serialNumber": {
+                                          "oneof": [
+                                            "serialNumber"
+                                          ]
+                                        },
+                                        "_firmwareVersion": {
+                                          "oneof": [
+                                            "firmwareVersion"
+                                          ]
+                                        }
+                                      },
+                                      "fields": {
+                                        "id": {
+                                          "type": "uint32",
+                                          "id": 1
+                                        },
+                                        "name": {
+                                          "type": "string",
+                                          "id": 2
+                                        },
+                                        "location": {
+                                          "type": "Location",
+                                          "id": 3,
+                                          "options": {
+                                            "proto3_optional": true
+                                          }
+                                        },
+                                        "url": {
+                                          "type": "string",
+                                          "id": 4,
+                                          "options": {
+                                            "proto3_optional": true
+                                          }
+                                        },
+                                        "serialNumber": {
+                                          "type": "string",
+                                          "id": 5,
+                                          "options": {
+                                            "proto3_optional": true
+                                          }
+                                        },
+                                        "firmwareVersion": {
+                                          "type": "string",
+                                          "id": 6,
+                                          "options": {
+                                            "proto3_optional": true
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "Data": {
+                                      "fields": {
+                                        "observations": {
+                                          "rule": "repeated",
+                                          "type": "Observation",
+                                          "id": 1
+                                        }
+                                      }
+                                    },
+                                    "Metadata": {
+                                      "fields": {
+                                        "node": {
+                                          "type": "Node",
+                                          "id": 1
+                                        },
+                                        "observers": {
+                                          "rule": "repeated",
+                                          "type": "ObserverDevice",
+                                          "id": 2
+                                        },
+                                        "parameterDefinitions": {
+                                          "rule": "repeated",
+                                          "type": "ParameterDefinition",
+                                          "id": 3
+                                        },
+                                        "namespaces": {
+                                          "keyType": "string",
+                                          "type": "string",
+                                          "id": 4
+                                        }
+                                      }
+                                    },
+                                    "FirstMileMessage": {
+                                      "oneofs": {
+                                        "content": {
+                                          "oneof": [
+                                            "metadata",
+                                            "data"
+                                          ]
+                                        }
+                                      },
+                                      "fields": {
+                                        "metadata": {
+                                          "type": "Metadata",
+                                          "id": 1
+                                        },
+                                        "data": {
+                                          "type": "Data",
+                                          "id": 2
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "google": {
+      "nested": {
+        "protobuf": {
+          "nested": {
+            "Empty": {
+              "fields": {}
+            },
+            "Timestamp": {
+              "fields": {
+                "seconds": {
+                  "type": "int64",
+                  "id": 1
+                },
+                "nanos": {
+                  "type": "int32",
+                  "id": 2
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

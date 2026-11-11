@@ -1,0 +1,15 @@
+{
+  "name": "@nodal/ingest",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NODAL message sources (MQTT, replay), ingest into PGlite, retention (no Vue)",
+  "type": "module",
+  "exports": { ".": "./src/index.ts", "./worker": "./src/worker.ts" },
+  "scripts": { "test": "vitest run" },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.13",
+    "@nodal/db": "*",
+    "@nodal/model": "*",
+    "mqtt": "^5.16.1"
+  }
+}

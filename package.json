@@ -1,0 +1,21 @@
+{
+  "name": "fmde-demo",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "description": "FMDEhub as a standalone PWA on GitHub Pages: a browser client for the WMO First Mile Data Exchange (FMDE)",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/nodal",
+    "build": "npm run build -w apps/nodal",
+    "typecheck": "npm run typecheck -w apps/nodal"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^6.0.3"
+  }
+}

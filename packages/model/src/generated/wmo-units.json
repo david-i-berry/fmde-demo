@@ -1,0 +1,796 @@
+{
+ "source": "http://codes.wmo.int/common/unit",
+ "retrieved": "2026-10-28",
+ "units": [
+  {
+   "notation": " ",
+   "abbreviation": " ",
+   "label": "nautical mile"
+  },
+  {
+   "notation": " ",
+   "abbreviation": " ",
+   "label": "week"
+  },
+  {
+   "notation": "'",
+   "abbreviation": "'",
+   "label": "minute (angle)"
+  },
+  {
+   "notation": "''",
+   "abbreviation": "''",
+   "label": "second (angle)"
+  },
+  {
+   "notation": "(y)",
+   "abbreviation": "(y)",
+   "label": "(yocto)"
+  },
+  {
+   "notation": "(Y)",
+   "abbreviation": "(Y)",
+   "label": "(yotta)"
+  },
+  {
+   "notation": "(z)",
+   "abbreviation": "(z)",
+   "label": "(zepto)"
+  },
+  {
+   "notation": "(Z)",
+   "abbreviation": "(Z)",
+   "label": "(zetta)"
+  },
+  {
+   "notation": "/s",
+   "abbreviation": "s^-1",
+   "label": "per second (same as hertz)"
+  },
+  {
+   "notation": "%",
+   "abbreviation": "%",
+   "label": "per cent"
+  },
+  {
+   "notation": "0/00",
+   "abbreviation": "‰",
+   "label": "parts per thousand"
+  },
+  {
+   "notation": "1",
+   "abbreviation": "1",
+   "label": "Dimensionless"
+  },
+  {
+   "notation": "a",
+   "abbreviation": "a",
+   "label": "year"
+  },
+  {
+   "notation": "a",
+   "abbreviation": "a",
+   "label": "atto"
+  },
+  {
+   "notation": "A",
+   "abbreviation": "A",
+   "label": "ampere"
+  },
+  {
+   "notation": "AU",
+   "abbreviation": "AU",
+   "label": "astronomic unit"
+  },
+  {
+   "notation": "Bq",
+   "abbreviation": "Bq",
+   "label": "becquerel"
+  },
+  {
+   "notation": "Bq m-2",
+   "abbreviation": "Bq m^-2",
+   "label": "becquerels per square metre"
+  },
+  {
+   "notation": "Bq m-3",
+   "abbreviation": "Bq m^-3",
+   "label": "becquerels per cubic metre"
+  },
+  {
+   "notation": "Bq s m-3",
+   "abbreviation": "Bq s m^-3",
+   "label": "becquerel seconds per cubic metre"
+  },
+  {
+   "notation": "Bq/l",
+   "abbreviation": "Bq l^-1",
+   "label": "becquerels per litre"
+  },
+  {
+   "notation": "c",
+   "abbreviation": "c",
+   "label": "centi"
+  },
+  {
+   "notation": "C",
+   "abbreviation": "C",
+   "label": "coulomb"
+  },
+  {
+   "notation": "C/100 m",
+   "abbreviation": "˚ C/100 m",
+   "label": "degrees Celsius per 100 metres"
+  },
+  {
+   "notation": "C/m",
+   "abbreviation": "˚ C/m",
+   "label": "degrees Celsius per metre"
+  },
+  {
+   "notation": "cb/12 h",
+   "abbreviation": "cb/12 h",
+   "label": "centibars per 12 hours"
+  },
+  {
+   "notation": "cb/s",
+   "abbreviation": "cb s^-1",
+   "label": "centibars per second"
+  },
+  {
+   "notation": "cd",
+   "abbreviation": "cd",
+   "label": "candela"
+  },
+  {
+   "notation": "Cel",
+   "abbreviation": "˚C",
+   "label": "degree Celsius"
+  },
+  {
+   "notation": "cm",
+   "abbreviation": "cm",
+   "label": "centimetre"
+  },
+  {
+   "notation": "cm/h",
+   "abbreviation": "cm h^-1",
+   "label": "centimetres per hour"
+  },
+  {
+   "notation": "cm/s",
+   "abbreviation": "cm s^-1",
+   "label": "centimetres per second"
+  },
+  {
+   "notation": "d",
+   "abbreviation": "d",
+   "label": "day"
+  },
+  {
+   "notation": "d",
+   "abbreviation": "d",
+   "label": "deci"
+  },
+  {
+   "notation": "da",
+   "abbreviation": "da",
+   "label": "deca"
+  },
+  {
+   "notation": "daPa",
+   "abbreviation": "daPa",
+   "label": "dekapascal"
+  },
+  {
+   "notation": "dB",
+   "abbreviation": "dB",
+   "label": "decibel (6)"
+  },
+  {
+   "notation": "dB/deg",
+   "abbreviation": "dB degree^-1",
+   "label": "decibels per degree"
+  },
+  {
+   "notation": "dB/m",
+   "abbreviation": "dB m^-1",
+   "label": "decibels per metre"
+  },
+  {
+   "notation": "deg",
+   "abbreviation": "˚",
+   "label": "degree (angle)"
+  },
+  {
+   "notation": "deg",
+   "abbreviation": "˚",
+   "label": "degrees true"
+  },
+  {
+   "notation": "deg/s",
+   "abbreviation": "degree/s",
+   "label": "degrees per second"
+  },
+  {
+   "notation": "deg^2",
+   "abbreviation": "degrees^2",
+   "label": "square degrees"
+  },
+  {
+   "notation": "degC",
+   "abbreviation": "˚ C",
+   "label": "degrees Celsius (8)"
+  },
+  {
+   "notation": "dm",
+   "abbreviation": "dm",
+   "label": "decimetre"
+  },
+  {
+   "notation": "dPa/s",
+   "abbreviation": "dPa s^-1",
+   "label": "decipascals per second (microbar per second)"
+  },
+  {
+   "notation": "DU",
+   "abbreviation": "DU",
+   "label": "Dobson Unit (9)"
+  },
+  {
+   "notation": "E",
+   "abbreviation": "E",
+   "label": "exa"
+  },
+  {
+   "notation": "eV",
+   "abbreviation": "eV",
+   "label": "electron volt"
+  },
+  {
+   "notation": "f",
+   "abbreviation": "f",
+   "label": "femto"
+  },
+  {
+   "notation": "F",
+   "abbreviation": "F",
+   "label": "farad"
+  },
+  {
+   "notation": "ft",
+   "abbreviation": "ft",
+   "label": "foot"
+  },
+  {
+   "notation": "g",
+   "abbreviation": "g",
+   "label": "acceleration due to gravity"
+  },
+  {
+   "notation": "G",
+   "abbreviation": "G",
+   "label": "giga"
+  },
+  {
+   "notation": "g kg-1 s-1",
+   "abbreviation": "g kg^-1 s^-1",
+   "label": "grams per kilogram per second"
+  },
+  {
+   "notation": "g/kg",
+   "abbreviation": "g kg^-1",
+   "label": "grams per kilogram"
+  },
+  {
+   "notation": "gpm",
+   "abbreviation": "gpm",
+   "label": "geopotential metre"
+  },
+  {
+   "notation": "Gy",
+   "abbreviation": "Gy",
+   "label": "gray"
+  },
+  {
+   "notation": "h",
+   "abbreviation": "h",
+   "label": "hour"
+  },
+  {
+   "notation": "h",
+   "abbreviation": "h",
+   "label": "hecto"
+  },
+  {
+   "notation": "H",
+   "abbreviation": "H",
+   "label": "henry"
+  },
+  {
+   "notation": "ha",
+   "abbreviation": "ha",
+   "label": "hectare"
+  },
+  {
+   "notation": "hPa",
+   "abbreviation": "hPa",
+   "label": "hectopascal"
+  },
+  {
+   "notation": "hPa/3 h",
+   "abbreviation": "hPa/3 h",
+   "label": "hectopascals per 3 hours"
+  },
+  {
+   "notation": "hPa/h",
+   "abbreviation": "hPa h^-1",
+   "label": "hectopascals per hour"
+  },
+  {
+   "notation": "hPa/s",
+   "abbreviation": "hPa s^-1",
+   "label": "hectopascals per second"
+  },
+  {
+   "notation": "Hz",
+   "abbreviation": "Hz",
+   "label": "hertz"
+  },
+  {
+   "notation": "J",
+   "abbreviation": "J",
+   "label": "joule"
+  },
+  {
+   "notation": "J m-2",
+   "abbreviation": "J m^-2",
+   "label": "joules per square metre"
+  },
+  {
+   "notation": "J/kg",
+   "abbreviation": "J kg^-1",
+   "label": "joules per kilogram"
+  },
+  {
+   "notation": "k",
+   "abbreviation": "k",
+   "label": "kilo"
+  },
+  {
+   "notation": "K",
+   "abbreviation": "K",
+   "label": "kelvin"
+  },
+  {
+   "notation": "K m s-1",
+   "abbreviation": "K m s^-1",
+   "label": "kelvin metres per second"
+  },
+  {
+   "notation": "K m2 kg-1 s-1",
+   "abbreviation": "K m^2 kg^-1 s^-1",
+   "label": "kelvin square metres per kilogram per second"
+  },
+  {
+   "notation": "K/m",
+   "abbreviation": "K m^-1",
+   "label": "kelvins per metre"
+  },
+  {
+   "notation": "kg",
+   "abbreviation": "kg",
+   "label": "kilogram"
+  },
+  {
+   "notation": "kg kg-1 s-1",
+   "abbreviation": "kg kg^-1 s^-1",
+   "label": "kilograms per kilogram per second"
+  },
+  {
+   "notation": "kg m-2",
+   "abbreviation": "kg m^-2",
+   "label": "kilograms per square metre"
+  },
+  {
+   "notation": "kg m-2 s-1",
+   "abbreviation": "kg m^-2 s^-1",
+   "label": "kilograms per square metre per second"
+  },
+  {
+   "notation": "kg m-3",
+   "abbreviation": "kg m^-3",
+   "label": "kilograms per cubic metre"
+  },
+  {
+   "notation": "kg-2 s-1",
+   "abbreviation": "kg^-2 s^-1",
+   "label": "per square kilogram per second"
+  },
+  {
+   "notation": "kg/kg",
+   "abbreviation": "kg kg^-1",
+   "label": "kilograms per kilogram"
+  },
+  {
+   "notation": "kg/m",
+   "abbreviation": "km m^-1",
+   "label": "kilograms per metre"
+  },
+  {
+   "notation": "km",
+   "abbreviation": "km",
+   "label": "kilometre"
+  },
+  {
+   "notation": "km/d",
+   "abbreviation": "km/d",
+   "label": "kilometres per day"
+  },
+  {
+   "notation": "km/h",
+   "abbreviation": "km h^-1",
+   "label": "kilometres per hour"
+  },
+  {
+   "notation": "kPa",
+   "abbreviation": "kPa",
+   "label": "kilopascal"
+  },
+  {
+   "notation": "kt",
+   "abbreviation": "kt",
+   "label": "knot"
+  },
+  {
+   "notation": "kt/km",
+   "abbreviation": "kt/1000 m",
+   "label": "knots per 1000 metres"
+  },
+  {
+   "notation": "l",
+   "abbreviation": "l",
+   "label": "litre"
+  },
+  {
+   "notation": "lm",
+   "abbreviation": "lm",
+   "label": "lumen"
+  },
+  {
+   "notation": "log (m-1)",
+   "abbreviation": "log (m^-1)",
+   "label": "logarithm per metre"
+  },
+  {
+   "notation": "log (m-2)",
+   "abbreviation": "log (m^-2)",
+   "label": "logarithm per square metre"
+  },
+  {
+   "notation": "lx",
+   "abbreviation": "lx",
+   "label": "lux"
+  },
+  {
+   "notation": "m",
+   "abbreviation": "m",
+   "label": "metre"
+  },
+  {
+   "notation": "m",
+   "abbreviation": "m",
+   "label": "milli"
+  },
+  {
+   "notation": "M",
+   "abbreviation": "M",
+   "label": "mega"
+  },
+  {
+   "notation": "m s-1/km",
+   "abbreviation": "m s^-1/1000 m",
+   "label": "metres per second per 1000 metres"
+  },
+  {
+   "notation": "m s-1/m",
+   "abbreviation": "m s^-1/m",
+   "label": "metres per second per metre"
+  },
+  {
+   "notation": "m s-2",
+   "abbreviation": "m s^-2",
+   "label": "metres per second squared"
+  },
+  {
+   "notation": "m-1",
+   "abbreviation": "m^-1",
+   "label": "per metre"
+  },
+  {
+   "notation": "m/s",
+   "abbreviation": "m s^-1",
+   "label": "metres per second"
+  },
+  {
+   "notation": "m2",
+   "abbreviation": "m^2",
+   "label": "square metres"
+  },
+  {
+   "notation": "m2 rad-1 s",
+   "abbreviation": "m^2 rad^-1 s",
+   "label": "square metres per radian squared"
+  },
+  {
+   "notation": "m2 s",
+   "abbreviation": "m^2 s",
+   "label": "square metres second"
+  },
+  {
+   "notation": "m2 s-2",
+   "abbreviation": "m^2 s^-2",
+   "label": "square metres per second squared"
+  },
+  {
+   "notation": "m2/3 s-1",
+   "abbreviation": "m^2/3 s^-1",
+   "label": "metres to the two thirds power per second"
+  },
+  {
+   "notation": "m2/Hz",
+   "abbreviation": "m^2 Hz^-1",
+   "label": "square metres per hertz"
+  },
+  {
+   "notation": "m2/s",
+   "abbreviation": "m^2 s^-1",
+   "label": "square metres per second"
+  },
+  {
+   "notation": "m3",
+   "abbreviation": "m^3",
+   "label": "cubic metres"
+  },
+  {
+   "notation": "m3 m-3",
+   "abbreviation": "m^3 m^-3",
+   "label": "cubic metres per cubic metre"
+  },
+  {
+   "notation": "m3/s",
+   "abbreviation": "m^3 s^-1",
+   "label": "cubic metres per second"
+  },
+  {
+   "notation": "m4",
+   "abbreviation": "m^4",
+   "label": "metres to the fourth power"
+  },
+  {
+   "notation": "min",
+   "abbreviation": "min",
+   "label": "minute (time)"
+  },
+  {
+   "notation": "mm",
+   "abbreviation": "mm",
+   "label": "millimetre"
+  },
+  {
+   "notation": "mm/h",
+   "abbreviation": "mm h^-1",
+   "label": "millimetres per hour"
+  },
+  {
+   "notation": "mm/s",
+   "abbreviation": "mm s^-1",
+   "label": "millimetres per seconds"
+  },
+  {
+   "notation": "mm6 m-3",
+   "abbreviation": "mm^6 m^-3",
+   "label": "millimetres per the sixth power per cubic metre"
+  },
+  {
+   "notation": "mol",
+   "abbreviation": "mol",
+   "label": "mole"
+  },
+  {
+   "notation": "mol/mol",
+   "abbreviation": " mol mol^-1",
+   "label": "moles per mole"
+  },
+  {
+   "notation": "mon",
+   "abbreviation": "mon",
+   "label": "month"
+  },
+  {
+   "notation": "mSv",
+   "abbreviation": "mSv",
+   "label": "millisievert"
+  },
+  {
+   "notation": "n",
+   "abbreviation": "n",
+   "label": "nano"
+  },
+  {
+   "notation": "N",
+   "abbreviation": "N",
+   "label": "newton"
+  },
+  {
+   "notation": "N m-2",
+   "abbreviation": "N m^-2",
+   "label": "newtons per square metre"
+  },
+  {
+   "notation": "N units",
+   "abbreviation": "N units",
+   "label": "N units"
+  },
+  {
+   "notation": "nbar",
+   "abbreviation": "nbar",
+   "label": "nanobar = hPa 10^-6"
+  },
+  {
+   "notation": "Ohm",
+   "abbreviation": "Ω",
+   "label": "ohm"
+  },
+  {
+   "notation": "okta",
+   "abbreviation": "okta",
+   "label": "eighths of cloud"
+  },
+  {
+   "notation": "p",
+   "abbreviation": "p",
+   "label": "pico"
+  },
+  {
+   "notation": "P",
+   "abbreviation": "P",
+   "label": "peta"
+  },
+  {
+   "notation": "Pa",
+   "abbreviation": "Pa",
+   "label": "pascal"
+  },
+  {
+   "notation": "Pa/s",
+   "abbreviation": "Pa s^-1",
+   "label": "pascals per second"
+  },
+  {
+   "notation": "pc",
+   "abbreviation": "pc",
+   "label": "parsec"
+  },
+  {
+   "notation": "pH unit",
+   "abbreviation": "pH unit",
+   "label": "pH unit"
+  },
+  {
+   "notation": "rad",
+   "abbreviation": "rad",
+   "label": "radian"
+  },
+  {
+   "notation": "rad/m",
+   "abbreviation": "rad m^-1",
+   "label": "radians per metre"
+  },
+  {
+   "notation": "s",
+   "abbreviation": "s",
+   "label": "second"
+  },
+  {
+   "notation": "S",
+   "abbreviation": "S",
+   "label": "siemens"
+  },
+  {
+   "notation": "s-2",
+   "abbreviation": "s^-2",
+   "label": "per second squared"
+  },
+  {
+   "notation": "s/m",
+   "abbreviation": "s m^-1",
+   "label": "seconds per metre"
+  },
+  {
+   "notation": "S/m",
+   "abbreviation": "S m^-1",
+   "label": "siemens per metre"
+  },
+  {
+   "notation": "sr",
+   "abbreviation": "sr",
+   "label": "steradian"
+  },
+  {
+   "notation": "Sv",
+   "abbreviation": "Sv",
+   "label": "sievert"
+  },
+  {
+   "notation": "t",
+   "abbreviation": "t",
+   "label": "tonne"
+  },
+  {
+   "notation": "T",
+   "abbreviation": "T",
+   "label": "tesla"
+  },
+  {
+   "notation": "T",
+   "abbreviation": "T",
+   "label": "tera"
+  },
+  {
+   "notation": "u",
+   "abbreviation": "u",
+   "label": "atomic mass unit"
+  },
+  {
+   "notation": "u",
+   "abbreviation": "µ",
+   "label": "micro"
+  },
+  {
+   "notation": "V",
+   "abbreviation": "V",
+   "label": "volt"
+  },
+  {
+   "notation": "W",
+   "abbreviation": "W",
+   "label": "watt"
+  },
+  {
+   "notation": "W m-1 sr-1",
+   "abbreviation": "W m^-1 sr^-1",
+   "label": "watts per metre per steradian"
+  },
+  {
+   "notation": "W m-2",
+   "abbreviation": "W m^-2",
+   "label": "watts per square metre"
+  },
+  {
+   "notation": "W m-2 sr-1",
+   "abbreviation": "W m^-2 sr^-1",
+   "label": "watts per square metre per steradian"
+  },
+  {
+   "notation": "W m-2 sr-1 cm",
+   "abbreviation": "W m^-2 sr^-1 cm",
+   "label": "watts per square metre per steradian centimetre"
+  },
+  {
+   "notation": "W m-2 sr-1 m",
+   "abbreviation": "W m^-2 sr^-1 m",
+   "label": "watts per square metre per steradian metre"
+  },
+  {
+   "notation": "W m-3 sr-1",
+   "abbreviation": "W m^-3 sr^-1",
+   "label": "watts per cubic metre per steradian"
+  },
+  {
+   "notation": "Wb",
+   "abbreviation": "Wb",
+   "label": "weber"
+  }
+ ]
+}
