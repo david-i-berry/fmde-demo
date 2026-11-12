@@ -11,9 +11,6 @@ messages and metadata, and the message inspector. Data is kept in the browser's 
 
 ## How it is built
 
-The code is FMDEhub's browser app and the packages it uses, copied from
-[fmde-hub](https://github.com/david-i-berry/fmde-hub) at commit `157da1e` (comments trimmed, a single app name):
-
 ```
 apps/nodal/           the Vue 3 + Vuetify PWA
 packages/model/       FMDE protobuf decoding, normalisation, node state (no Vue)
