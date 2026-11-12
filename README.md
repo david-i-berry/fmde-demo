@@ -9,14 +9,6 @@ credentials) and it subscribes to the FMDE topics (`firstmile/a/#, firstmile/poc
 every message, and shows the nodes: status board, map, node pages with parameters, time series,
 messages and metadata, and the message inspector. Data is kept in the browser's own database.
 
-Compared with the server deployment (fmde.core-weather.io), this build has:
-
-- **no broker details built in:** the user enters them in Settings (they are saved in that browser's
-  database so the app can reconnect);
-- **no history recorder:** only what the broker delivers once connected, plus retained metadata;
-- **no building data:** no 3D site view;
-- **no conformance views:** the checks still run, but nothing is shown.
-
 ## How it is built
 
 The code is FMDEhub's browser app and the packages it uses, copied from
